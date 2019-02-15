@@ -79,7 +79,8 @@ section.hero {
 section.hero h1 {
   font-size: 325%;
   margin-bottom: -10px;
-  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
   line-height: 1em;
   font-weight: normal;
   text-align: center;
@@ -116,20 +117,21 @@ margin: 0 auto;
 margin-top: 150px;
 }
 section.features h2 {
-  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
   font-size: 300%;
   text-align: center;
-  margin-bottom:  -35px;
+  margin-bottom:  -20px;
   margin-top: 9px;
   font-weight:normal;
-  color: rgb(113, 80, 109);
+  color:#047177;0
 }
 section.features h4 {
 font-size: 125%;
 font-weight: normal;
 text-align: center;
 margin-bottom: 40px;
-color: rgb(200, 200, 200);
+color: rgb(170, 170, 170);
 }
 section.features aside {
   width: 286px;
@@ -144,19 +146,20 @@ section.features aside img {
 
 }
 section.features aside h3 {
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 200%;
-  font-weight: normal;
-  color: rgb(113, 80, 109);
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
+  font-size: 170%;
+  font-weight: bold;
+  color: #047177;
 }
 section.organize {
   width: 100%;
   height: 260px;
   background: rgb(240,240,240);
-  padding: 5px 0;
-  margin-bottom: 5px;
+  padding-bottom:  9px;
   border-top: 1px solid rgb(200,200,200);
   border-bottom: 1px solid rgb(200,200,200);
+
 }
 section.organize img, section.share img {
   width:440px;
@@ -169,31 +172,35 @@ section.organize img, section.share img {
   float: left;
   margin-left: 20px;
   width: 440px;
+
 }
 .organizecontent h2, .sharecontent h2 {
-  font-family: 'Oleo Script Swash Caps', cursive;
-  color: rgb(113, 80, 109);
-  font-size: 225%;
-  margin-bottom: -20px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
+  color: #047177;
+  font-size: 170%;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 section.share {
   width: 948px;
   height: 260px;
-  margin: 0 auto 5px;
-  padding: 5px 0;
+  margin: 0 auto 0px;
+  margin-bottom: 9px;
 }
 section.get {
   width: 100%;
   height: 100px;
-  background: rgb(113, 80, 109);
+  background: #AF7C44;
 }
 section.get h2 {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 258%;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+    font-size: 200%;
     color: rgb(255,255,255);
     margin-left:  60px;
     margin-top: 25px;
-    font-weight: normal;
+    font-weight: 100;
     float: left;
 }
 section.get .button {
