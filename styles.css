@@ -1,0 +1,215 @@
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.clear {
+  clear: both
+}
+/* THESE RULES APPLY TO THE HIGH REZ DISPLAY,
+AND CASCADE DOWN TO THE MEDIUM AND LOW REZ DISPLAYS */
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  color: rgb(100,100,100);
+}
+header {
+  width: 100%;
+  height:  60px;
+  background-color:  rgb(0, 0, 0);
+  padding: 5px 0;
+}
+#logo img {
+  width: 100px;
+  padding: 1px  9px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 9px;
+}
+.container {
+  width: 940px;
+  height: 100%;
+  margin: 0 auto;
+}
+nav {
+  float:right;
+  margin-top: 4px;
+}
+nav li {
+  display: inline;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 100%;
+}
+nav li a {
+  color: rgb(225, 225, 225);
+  text-decoration: none;//To get rid of the "a" default underline.
+}
+input, .search {
+  border-radius: 5px;
+  height: 20px;
+  margin-top: 15px;
+  border: 1px solid rgb(150,150,150);
+  width: 140px;
+  background: rgb(255,255,255) url(images/search.png) no-repeat 4px 4px;
+  padding: 4px 4px 4px 30px;
+  margin-right: 20px;
+}
+section.hero {
+  width: 100%;
+  max-height: 400px;
+  padding: 5px;
+  margin-bottom: 120px;
+  background: url(images/herobg.jpg);
+  background-size: 100% 100%;
+  margin-bottom: 70px;
+}
+.heroimage {
+  margin-top: 150px;
+}
+.herocontent {
+  width: 390px;
+  margin-left: 20px;
+  padding-top: 40px;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.75) ; /* Shadow */
+}
+section.hero h1 {
+  font-size: 325%;
+  margin-bottom: -10px;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  line-height: 1em;
+  font-weight: normal;
+}
+section.hero p{
+  margin-bottom: 60px;
+}
+
+.button {
+  width: 225px;
+  height: 45px;
+  background: url(images/buttonbg.jpg);
+  text-align: center;
+  font-size: 150%;
+  padding: 20px 5px 5px;
+  margin: 5px 5px 0 0;
+  border:  1px solid rgb(205,101,14);
+  border-radius: 5px;
+  /*All these shadows must be in a single line to work.!*/
+  box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185, 91, 12, 1),inset 0px 1px 0px 0px rgba( 255,255,255,0.5);
+  cursor: pointer; /* Important! To get the pointing hand over the button.*/
+}
+.button a {color: white; text-decoration: none; text-shadow: 2px, 2px, 2px 0px rgba(0,0,0,0.25);
+}
+.button:hover {
+  background: url(images/buttonbg_o.jpg);
+}
+section.features {
+width: 940px;
+height: 400px;
+margin: 0 auto;
+margin-top: 150px;
+
+}
+section.features h2 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 300%;
+  text-align: center;
+  margin-bottom:  -35px;
+  margin-top: 9px;
+  font-weight:normal;
+  color: rgb(113, 80, 109);
+}
+section.features h4 {
+font-size: 125%;
+font-weight: normal;
+text-align: center;
+margin-bottom: 40px;
+color: rgb(200, 200, 200);
+}
+section.features aside {
+  width: 286px;
+  height: 200px;
+  float: left;
+  text-align: center;
+  margin-left: 20px;
+}
+section.features aside img {
+  width: 100%;
+  height: 150px;
+  margin-bottom: -30px;
+}
+section.features aside h3 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 200%;
+  font-weight: normal;
+  color: rgb(113, 80, 109);
+}
+section.organize {
+  width: 100%;
+  height: 260px;
+  background: rgb(240,240,240);
+  padding: 5px 0;
+  margin-bottom: 5px;
+  border-top: 1px solid rgb(200,200,200);
+  border-bottom: 1px solid rgb(200,200,200);
+}
+section.organize img, section.share img {
+  width:440px;
+  height: 225px;
+  float: left;
+  margin-left: 20px;
+  margin-top:  20px;
+}
+.organizecontent, .sharecontent {
+  float: left;
+  margin-left: 20px;
+  width: 440px;
+}
+.organizecontent h2, .sharecontent h2 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: rgb(113, 80, 109);
+  font-size: 225%;
+  margin-bottom: -20px;
+}
+section.share {
+  width: 948px;
+  height: 260px;
+  margin: 0 auto 5px;
+  padding: 5px 0;
+}
+section.get {
+  width: 100%;
+  height: 100px;
+  background: rgb(113, 80, 109);
+}
+section.get h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 258%;
+    color: rgb(255,255,255);
+    margin-left:  60px;
+    margin-top: 25px;
+    font-weight: normal;
+    float: left;
+}
+section.get .button {
+  width: 150px;
+  height: 38px;
+  margin-right: 68px;
+  margin-top: 25px;
+  padding-top: 7px;
+}
+footer nav {
+width: 100%;
+height: 120px;
+padding: 9px;
+text-align: center;
+}
+footer nav li a {
+font-size: 80%;
+color: rgb(0,0,0);
+text-decoration: underline;
+font-weight: normal;
+}
